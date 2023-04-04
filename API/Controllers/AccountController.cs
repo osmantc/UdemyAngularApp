@@ -79,19 +79,19 @@ namespace API.Controllers
             return _context.AppUsers.Any(x => x.UserName == user.UserName);
         }
 
-        private string WriteToken(AppUser user)
-        {
-            List<Claim> claims = new List<Claim>(){
-                    new Claim(JwtRegisteredClaimNames.Sub,user.Id.ToString()),
-                    new Claim(JwtRegisteredClaimNames.Name,user.UserName),
-                };
+        // private string WriteToken(AppUser user)
+        // {
+        //     List<Claim> claims = new List<Claim>(){
+        //             new Claim(JwtRegisteredClaimNames.Sub,user.Id.ToString()),
+        //             new Claim(JwtRegisteredClaimNames.Name,user.UserName),
+        //         };
 
-            SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["AuthKey"]));
-            SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
-            var expires = DateTime.Now.AddMinutes(30);
+        //     SymmetricSecurityKey key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["AuthKey"]));
+        //     SigningCredentials credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+        //     var expires = DateTime.Now.AddMinutes(30);
 
-            var token = new JwtSecurityToken()
-        }
+        //     var token = new JwtSecurityToken()
+        // }
 
     }
 }
