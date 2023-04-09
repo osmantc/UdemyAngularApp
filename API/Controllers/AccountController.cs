@@ -14,9 +14,11 @@ using Microsoft.IdentityModel.Tokens;
 using API.DTOs;
 using Microsoft.EntityFrameworkCore;
 using API.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
+    [AllowAnonymous]
     public class AccountController : BaseApiController
     {
         private readonly DataContext _context;
@@ -27,6 +29,7 @@ namespace API.Controllers
             this._context = context;
             this._tokenService = tokenService;
         }
+
 
         [HttpPost("Register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
@@ -52,7 +55,6 @@ namespace API.Controllers
                 Token = _tokenService.CreateToken(returnedUser.Entity)
             };
         }
-
 
         [HttpPost("Login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)

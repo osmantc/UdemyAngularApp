@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SHm6xd0Ge7iJIuPM6u2yzxR6WZsiGbxmfOA9QlpywsyirQjk0qlotzIozHUsroNpzy6nV81BvWfFd2F2Mw/qvw==",
+  "dgSpecHash": "ksHNhHffXD3FFb/q4Rs3wWTPq4Jk93LpPbyllLEK6NYflKR60mNAx8AGRJkfpqvm7h1+SWcWRAto9BjVubcxNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TARIK\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.4\\microsoft.data.sqlite.core.7.0.4.nupkg.sha512",
@@ -29,6 +30,8 @@
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.28.1\\microsoft.identitymodel.abstractions.6.28.1.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.28.1\\microsoft.identitymodel.jsonwebtokens.6.28.1.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.identitymodel.logging\\6.28.1\\microsoft.identitymodel.logging.6.28.1.nupkg.sha512",
+    "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.15.1\\microsoft.identitymodel.protocols.6.15.1.nupkg.sha512",
+    "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.15.1\\microsoft.identitymodel.protocols.openidconnect.6.15.1.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.28.1\\microsoft.identitymodel.tokens.6.28.1.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
