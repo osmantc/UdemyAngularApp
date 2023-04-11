@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj": {}
+    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj": {
+    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+        "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\API.csproj",
         "packagesPath": "C:\\Users\\429883\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\obj\\",
+        "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,13 +65,10 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.28.1, )"
-<<<<<<< HEAD
             },
             "microsoft.aspnetcore.authentication.jwtbearer": {
               "target": "Package",
               "version": "[7.0.4, )"
-=======
->>>>>>> f2c7f008520ae14500e80fe5e017956fc48f04a4
             }
           },
           "imports": [
@@ -93,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

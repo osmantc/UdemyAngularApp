@@ -442,7 +442,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Microsoft.IdentityModel.Protocols/6.15.1": {
         "type": "package",
         "dependencies": {
@@ -477,8 +476,6 @@
           }
         }
       },
-=======
->>>>>>> f2c7f008520ae14500e80fe5e017956fc48f04a4
       "Microsoft.IdentityModel.Tokens/6.28.1": {
         "type": "package",
         "dependencies": {
@@ -1716,7 +1713,6 @@
         "microsoft.identitymodel.logging.nuspec"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.IdentityModel.Protocols/6.15.1": {
       "sha512": "6nHr+4yE8vj620Vy4L0pl7kmkvWc06wBrJ+AOo/gjqzu/UD/MYgySUqRGlZYrvvNmKkUWMw4hdn78MPCb4bstA==",
       "type": "package",
@@ -1755,8 +1751,6 @@
         "microsoft.identitymodel.protocols.openidconnect.nuspec"
       ]
     },
-=======
->>>>>>> f2c7f008520ae14500e80fe5e017956fc48f04a4
     "Microsoft.IdentityModel.Tokens/6.28.1": {
       "sha512": "6WNq6Vo1nBgbZOibwG1eOHlrYrj81+NEEAldkGIPfdiCE8calwr0WVqJKwe2R6NcGF9W0YL0Yq3MFi8cVW+p7Q==",
       "type": "package",
@@ -2401,12 +2395,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.4",
       "Swashbuckle.AspNetCore >= 6.4.0",
-<<<<<<< HEAD
       "System.IdentityModel.Tokens.Jwt >= 6.28.1",
       "microsoft.aspnetcore.authentication.jwtbearer >= 7.0.4"
-=======
-      "System.IdentityModel.Tokens.Jwt >= 6.28.1"
->>>>>>> f2c7f008520ae14500e80fe5e017956fc48f04a4
     ]
   },
   "packageFolders": {
@@ -2416,11 +2406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+      "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\API.csproj",
       "packagesPath": "C:\\Users\\429883\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\obj\\",
+      "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2474,13 +2464,10 @@
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
             "version": "[6.28.1, )"
-<<<<<<< HEAD
           },
           "microsoft.aspnetcore.authentication.jwtbearer": {
             "target": "Package",
             "version": "[7.0.4, )"
-=======
->>>>>>> f2c7f008520ae14500e80fe5e017956fc48f04a4
           }
         },
         "imports": [
@@ -2502,7 +2489,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

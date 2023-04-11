@@ -18,7 +18,7 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddScoped<ITokenService, TokenService>();
 
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)   //ayarı yapabilmek için gerekli Microsoft.AspNetCore.Authentication.JwtBearer.
 .AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters()

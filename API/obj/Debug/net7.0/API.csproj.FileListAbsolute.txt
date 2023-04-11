@@ -216,3 +216,11 @@ C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\obj\Debug\net7.0\API
 C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\obj\Debug\net7.0\ref\API.dll
 >>>>>>> f2c7f008520ae14500e80fe5e017956fc48f04a4
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

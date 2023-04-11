@@ -65,7 +65,7 @@ namespace API.Controllers
             AppUser user = await _context.AppUsers.FirstOrDefaultAsync(x => x.UserName == loginDto.UserName.ToLower());
 
             if (user == null)
-                Unauthorized("invalid username");
+               return Unauthorized("invalid username");
 
             using var mac = new HMACSHA512(user.PasswordSalt);
             var computedHash = mac.ComputeHash(Encoding.UTF8.GetBytes(loginDto.Password));
