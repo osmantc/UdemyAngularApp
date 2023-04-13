@@ -53,7 +53,7 @@ namespace API.Controllers
 
             return new UserDto
             {
-                UserName = returnedUser.Entity.UserName,
+                Username = returnedUser.Entity.UserName,
                 Token = _tokenService.CreateToken(returnedUser.Entity)
             };
         }
@@ -80,7 +80,7 @@ namespace API.Controllers
 
             return new UserDto
             {
-                UserName = user.UserName,
+                Username = user.UserName,
                 Token = _tokenService.CreateToken(user)
             };
         }
