@@ -36,13 +36,13 @@ namespace API.Controllers
         [HttpPost("Register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
-            if (await UserAlreadyExist(registerDto.UserName)) return BadRequest("User name has already been taken");
+            if (await UserAlreadyExist(registerDto.Username)) return BadRequest("User name has already been taken");
 
             using var mac = new HMACSHA512();
 
             AppUser user = new AppUser
             {
-                UserName = registerDto.UserName.ToLower(), //gelen ismi her zaman küçük kaydediyoruz, casesensetive olmasın diye
+                UserName = registerDto.Username.ToLower(), //gelen ismi her zaman küçük kaydediyoruz, casesensetive olmasın diye
                 PasswordHash = mac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
                 PasswordSalt = mac.Key
             };
@@ -62,7 +62,7 @@ namespace API.Controllers
         public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
         {
 
-            AppUser user = await _context.AppUsers.FirstOrDefaultAsync(x => x.UserName == loginDto.UserName.ToLower());
+            AppUser user = await _context.AppUsers.FirstOrDefaultAsync(x => x.UserName == loginDto.Username.ToLower());
 
             if (user == null)
                return Unauthorized("invalid username");
