@@ -9,9 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API
 build_property.RootNamespace = API
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\TARIK\Desktop\UdemAngularApp\UdemyAngularApp.Service\API\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\TARIK\Desktop\UdemAngularApp\UdemyAngularApp.Service\API
+=======
+
+build_property.ProjectDir = C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\429883\Desktop\NeilCummingsApplication\Backend\API
+
+>>>>>>> 1baf98346fd07abd37e76a943683c2bf14f1136c
 build_property._RazorSourceGeneratorDebug = 

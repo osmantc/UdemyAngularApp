@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "gFrVAB1BSvT/9CAteD1gE4foAQ4afuqc/FzQC6u7pgEe/jpyHLlLGjQzW9L8aDKxxiAZ3vdyzF7Skqyokwa4Yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+=======
   "dgSpecHash": "ksHNhHffXD3FFb/q4Rs3wWTPq4Jk93LpPbyllLEK6NYflKR60mNAx8AGRJkfpqvm7h1+SWcWRAto9BjVubcxNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\API.csproj",
+>>>>>>> b233ae226a139f4d29423515adeb68f1f8532479
   "expectedPackageFiles": [
     "C:\\Users\\TARIK\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\TARIK\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.4\\microsoft.aspnetcore.authentication.jwtbearer.7.0.4.nupkg.sha512",

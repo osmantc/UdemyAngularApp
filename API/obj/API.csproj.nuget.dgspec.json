@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\API.csproj": {}
+    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\API.csproj": {
+    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\TARIK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TARIK\\Desktop\\UdemAngularApp\\UdemyAngularApp.Service\\API\\obj\\",
+        "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\429883\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
