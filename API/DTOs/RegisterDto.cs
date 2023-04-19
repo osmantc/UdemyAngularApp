@@ -9,6 +9,7 @@ namespace API.DTOs
     public class RegisterDto
     {
         [Required]
+        [RegularExpression(@"\S+")]
         public string Username { get; set; }
         [Required]
         public string Password { get; set; }

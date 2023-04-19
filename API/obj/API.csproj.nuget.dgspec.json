@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj": {}
+    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\backend\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj": {
+    "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\backend\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\backend\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\API.csproj",
+        "projectPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\backend\\api\\API.csproj",
         "packagesPath": "C:\\Users\\429883\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\Backend\\API\\obj\\",
+        "outputPath": "C:\\Users\\429883\\Desktop\\NeilCummingsApplication\\backend\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TARIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\429883\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
