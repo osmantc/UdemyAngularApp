@@ -1,5 +1,6 @@
 using System.Text;
 using API.Data;
+using API.Middlewares;
 using API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -40,6 +41,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ErrorMiddleware>();
+
 app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
 // app.UseHttpsRedirection(); //our app always run https dediği için bu çıkardı.
 
