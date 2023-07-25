@@ -481,4 +481,4 @@ API/obj
 
 ./API/appsettings.json
 ./API/bin
-API/obj
+./API/obj
